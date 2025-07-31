@@ -1,6 +1,10 @@
 # Med-LLM-PII-Leakage
 Analyzing privacy risks and defenses in LLMs using synthetic medical Q&A
 
+> 📌 Author: **Daeun Kum (금다은)**  
+> 💬 Contact: dnny3t@gmail.com  
+> 🧠 Interest: Medical AI, LLM Privacy, and Healthcare Informatics
+
 ## Overview
 Large Language Models (LLMs) are increasingly used in medical and health-related applications, raising concerns about potential leakage of personally identifiable information (PII).  
 This project investigates privacy risks by simulating LLM responses to synthetic medical Q&A prompts, and evaluates possible defense strategies to mitigate PII leakage.
