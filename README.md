@@ -7,19 +7,22 @@ This project investigates privacy risks by simulating LLM responses to synthetic
 
 ## Project Structure
 Med-LLM-PII-Leakage/
-├── data/ # Synthetic prompts and evaluation datasets
-│ ├── medical_prompts.csv
-│ └── pii_terms_list.txt
-├── scripts/ # Core experiment scripts
-│ ├── generate_responses.py # Prompt LLM and collect outputs
-│ ├── detect_pii.py # Detect PII in LLM responses
-│ └── evaluate_defense.py # Evaluate defense strategies (e.g. redaction)
-├── results/ # Output samples and evaluation results
-│ ├── raw_responses.json
-│ ├── pii_detection_log.csv
-│ └── defense_summary.png
-├── README.md
-└── requirements.txt
+├── data/                     # Synthetic prompts and evaluation datasets  
+│   ├── medical_prompts.csv   # Synthetic medical Q&A inputs  
+│   └── pii_terms_list.txt    # List of target PII terms  
+│
+├── scripts/                  # Core experiment scripts  
+│   ├── generate_responses.py # Prompt LLMs and collect outputs  
+│   ├── detect_pii.py         # Detect PII in LLM responses  
+│   └── evaluate_defense.py   # Evaluate defense strategies (e.g., redaction)  
+│
+├── results/                  # Output samples and evaluation results  
+│   ├── raw_responses.json    # Raw model outputs from LLMs  
+│   ├── pii_detection_log.csv # Log of detected PII  
+│   └── defense_summary.png   # Summary visualization of leakage mitigation  
+│
+├── requirements.txt          # Python dependencies  
+└── README.md                 # Project documentation  
 
 ## Key Features
 - **Synthetic Medical Prompts**: Generates Q&A-style inputs containing controlled fake PII for LLM testing.
