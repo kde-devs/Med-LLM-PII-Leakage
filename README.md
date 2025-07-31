@@ -3,7 +3,7 @@ Analyzing privacy risks and defenses in LLMs using synthetic medical Q&A
 
 > Author: **Daeun Kum (금다은)**  
 > Contact: dnny3t@gmail.com  
-> Interest: Medical AI, LLM Privacy, and Healthcare Informatics
+> Research Interests: Privacy-preserving medical AI using large language models and healthcare informatics
 
 ## Overview
 Large Language Models (LLMs) are increasingly used in medical and health-related applications, raising concerns about potential leakage of personally identifiable information (PII).  
