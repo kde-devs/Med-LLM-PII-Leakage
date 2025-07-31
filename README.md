@@ -1,2 +1,37 @@
 # Med-LLM-PII-Leakage
-Analyzing privacy risks and defenses in LLMs using synthetic medical Q&amp;A
+Analyzing privacy risks and defenses in LLMs using synthetic medical Q&A
+
+## Overview
+Large Language Models (LLMs) are increasingly used in medical and health-related applications, raising concerns about potential leakage of personally identifiable information (PII).  
+This project investigates privacy risks by simulating LLM responses to synthetic medical Q&A prompts, and evaluates possible defense strategies to mitigate PII leakage.
+
+## Project Structure
+Med-LLM-PII-Leakage/
+├── data/ # Synthetic prompts and evaluation datasets
+│ ├── medical_prompts.csv
+│ └── pii_terms_list.txt
+├── scripts/ # Core experiment scripts
+│ ├── generate_responses.py # Prompt LLM and collect outputs
+│ ├── detect_pii.py # Detect PII in LLM responses
+│ └── evaluate_defense.py # Evaluate defense strategies (e.g. redaction)
+├── results/ # Output samples and evaluation results
+│ ├── raw_responses.json
+│ ├── pii_detection_log.csv
+│ └── defense_summary.png
+├── README.md
+└── requirements.txt
+
+## Key Features
+- **Synthetic Medical Prompts**: Generates Q&A-style inputs containing controlled fake PII for LLM testing.
+- **PII Leakage Simulation**: Sends crafted prompts to LLMs (e.g., GPT-3.5, Claude) to observe potential information leakage.
+- **Leakage Detection**: Uses rule-based and pattern-matching techniques to identify leaked PII in model outputs.
+- **Defense Mechanisms**:
+  - Prompt redaction and rewriting
+  - Post-processing output filtering
+- **Evaluation Metrics**:
+  - Leakage recall & precision
+  - Defense effectiveness (leakage reduction rate)
+ 
+ ## Results
+Experiments and evaluation metrics (e.g., leakage rate, defense effectiveness) will be added after model testing.
+> Stay tuned — detailed results and visualizations will be uploaded here.
