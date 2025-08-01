@@ -12,9 +12,10 @@ This project investigates privacy risks by simulating LLM responses to synthetic
 ## Project Structure
 ```
 Med-LLM-PII-Leakage/
-├── data/                       # Synthetic prompts and evaluation datasets
-│   ├── medical_prompts.csv     # Synthetic medical Q&A inputs
-│   └── pii_terms_list.txt      # List of target PII terms
+├── data/                        # Synthetic prompts and evaluation datasets  
+│   ├── medical_prompts.csv      # Synthetic medical Q&A inputs  
+│   ├── pii_terms_list.txt       # List of target PII terms  
+│   └── prompts.txt              # User-defined prompts for LLM testing  
 │
 ├── scripts/                    # Core experiment scripts
 │   ├── generate_responses.py   # Prompt LLMs and collect outputs
