@@ -48,10 +48,9 @@ Experiments and evaluation metrics (e.g., leakage rate, defense effectiveness) w
 ## Research Plan
 This project is under active development. The following directions are being considered:
 
-- **[Comparative Evaluation]** Compare baseline leakage with mitigation strategies
-- **[Multilingual Prompts]** Korean-English synthetic Q&A comparison
-- **[Model Variation]** GPT-3.5 vs. Claude vs. open-source
-- **[Differential Privacy]** Investigate DP-based mitigation
-- **[Trade-off Analysis]** Between redaction strength and utility
-
+- **[Comparative Evaluation]** Evaluate baseline leakage rates and measure the mitigation effects of various defense strategies
+- **[Multilingual Prompts]** Extend evaluation to Korean–English synthetic Q&A datasets
+- **[Model Variation]** Compare model behavior across GPT-3.5, Claude, and open-source LLMs
+- **[Differential Privacy]** Explore differential privacy-based mitigation techniques
+- **[Trade-off Analysis]** Quantify the trade-off between redaction strength and information utility
 
