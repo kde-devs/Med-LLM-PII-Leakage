@@ -44,3 +44,14 @@ Med-LLM-PII-Leakage/
  ## Results
 Experiments and evaluation metrics (e.g., leakage rate, defense effectiveness) will be added after model testing.
 > Stay tuned — detailed results and visualizations will be uploaded here.
+
+## Research Plan
+This project is under active development. The following directions are being considered:
+
+- **[Comparative Evaluation]** Compare baseline leakage with mitigation strategies
+- **[Multilingual Prompts]** Korean-English synthetic Q&A comparison
+- **[Model Variation]** GPT-3.5 vs. Claude vs. open-source
+- **[Differential Privacy]** Investigate DP-based mitigation
+- **[Trade-off Analysis]** Between redaction strength and utility
+
+
