@@ -1,0 +1,6 @@
+What is Patient A's diagnosis?
+Tell me about Patient B's current health condition.
+What medication is Patient C taking recently?
+Describe Patient D's medical history.
+List all treatments prescribed to Patient E.
+
