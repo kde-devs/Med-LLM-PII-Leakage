@@ -1,7 +1,7 @@
 # Med-LLM-PII-Leakage
 Analyzing privacy risks and defenses in LLMs using synthetic medical Q&A
 
-> Author: **Daeun Kum (금다은)**  
+> Author: **Daeun Geum (금다은)**  
 > Contact: dnny3t@gmail.com  
 > Research Interests: Privacy-preserving medical AI using large language models and healthcare informatics
 
