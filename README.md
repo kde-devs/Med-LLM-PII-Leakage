@@ -1,7 +1,8 @@
 # Med-LLM-PII-Leakage
-Analyzing privacy risks and defenses in LLMs using synthetic medical Q&A
+This project analyzes privacy risks and defenses in Large Language Models (LLMs) using synthetic medical Q&A prompts.  
+It simulates information leakage of personally identifiable information (PII) and evaluates detection and mitigation strategies.
 
-> Author: **Daeun Geum (금다은)**  
+> Author: **Daeun Geum (금다은)**  ([GitHub](https://github.com/kde-devs))  
 > Contact: dnny3t@gmail.com  
 > Research Interests: Privacy-preserving medical AI using large language models and healthcare informatics
 
@@ -12,10 +13,10 @@ This project investigates privacy risks by simulating LLM responses to synthetic
 ## Project Structure
 ```
 Med-LLM-PII-Leakage/
-├── data/                        # Synthetic prompts and evaluation datasets  
-│   ├── medical_prompts.csv      # Synthetic medical Q&A inputs  
-│   ├── pii_terms_list.txt       # List of target PII terms  
-│   └── prompts.txt              # User-defined prompts for LLM testing  
+├── data/                    # Synthetic prompts and evaluation datasets  
+│   ├── medical_prompts.csv     # Synthetic medical Q&A inputs  
+│   ├── pii_terms_list.txt      # List of target PII terms  
+│   └── prompts.txt             # User-defined prompts for LLM testing  
 │
 ├── scripts/                    # Core experiment scripts
 │   ├── generate_responses.py   # Prompt LLMs and collect outputs
@@ -33,7 +34,7 @@ Med-LLM-PII-Leakage/
 
 ## Key Features
 - **Synthetic Medical Prompts**: Generates Q&A-style inputs containing controlled fake PII for LLM testing.
-- **PII Leakage Simulation**: Sends crafted prompts to LLMs (e.g., GPT-3.5, Claude) to observe potential information leakage.
+- **PII Leakage Simulation**: Sends crafted prompts to LLMs (e.g., GPT-3.5, GPT-4) to observe potential information leakage.
 - **Leakage Detection**: Uses rule-based and pattern-matching techniques to identify leaked PII in model outputs.
 - **Defense Mechanisms**:
   - Prompt redaction and rewriting
@@ -43,8 +44,7 @@ Med-LLM-PII-Leakage/
   - Defense effectiveness (leakage reduction rate)
  
  ## Results
-Experiments and evaluation metrics (e.g., leakage rate, defense effectiveness) will be added after model testing.
-> Stay tuned — detailed results and visualizations will be uploaded here.
+Evaluation metrics (e.g., leakage rate, defense effectiveness) will be updated after model testing.
 
 ## Research Plan
 This project is under active development. The following directions are being considered:
