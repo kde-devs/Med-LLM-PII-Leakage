@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# System files
+.DS_Store
+
+# Log files and temporary results
+*.log
+*.out
+*.tmp
+
+# Results (optional: if generated dynamically)
+results/*.png
